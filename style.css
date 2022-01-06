@@ -1,0 +1,327 @@
+body{
+    background: #222222;
+    margin:0;
+    color:#ffffff;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.introduction{
+    display:flex;
+    padding:5%;
+}
+
+.intro-element{
+    width: 50%;
+    height: 70%;
+    padding: 5%;
+}
+
+.h1{
+    height: 240px;
+    display: flex;
+    
+}
+
+.line{
+    border:2px solid #E9350E;
+    height: 145px;
+    margin-top: 82px;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+
+
+.h1 h1{
+    font-size: 70px;
+    padding-left: 5px;
+    height: 240px;
+    display: inline;
+    color: #D5D8DC; 
+}
+
+.mission2022{
+    color:#E9350E;
+}
+
+.intro-element p{
+    text-align: justify;
+    margin: 45px 0;
+    font-weight: bold;
+}
+
+
+.intro-element a{
+    padding: 15px 55px;
+    background-image: linear-gradient(red,#E9350E);
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    
+}
+
+.intro-img{
+    padding-left: 180px;
+}
+
+.intro-img img{
+    width:100%;
+    margin-top: -200px;
+}
+
+
+
+.Mission{
+    margin-bottom: 200px;
+}
+
+
+.Mission h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+.year2022{
+    color:#E9350E;
+}
+
+.process{
+    display: flex;
+    padding: 5% ;
+}
+
+.dream{
+    padding: 2%;
+    border: 1px solid white;
+    margin: 0 20px;
+    border-radius: 30px;
+}
+
+.dream img{
+    width:60%;
+}
+
+.dream h2{
+    font-size: 35px;
+    color: black;
+}
+
+.dream p{
+    text-align: justify;
+    color: gray;
+    font-weight: bold;
+    width: 80%;
+}
+
+.mission{
+    background: #EDF5F6;
+}
+
+.mission img{
+    margin-left: 90px;
+}
+
+.vision{
+    background: #FFEEEE;
+    padding-top: 70px;
+}
+
+.vision img{
+    padding-left: 60px;
+    
+}
+
+.goal{
+    background: #FFF4D6;
+    padding-top: 50px;
+}
+
+.goal img{
+    padding-left: 80px;
+}
+
+.development{
+    display: flex;
+    padding: 5%;
+    margin-bottom: 200px;
+}
+
+.development-container{
+    width: 60%;
+    padding: 2%;
+    margin-left: 50px;
+}
+
+
+.development-img{
+    display: flex;
+    margin-left: -30px;
+}
+
+
+#description .img1{
+    width:15%;
+    padding-top: 40px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+#description .img2{
+    width:70%;
+    z-index: 2;
+    margin-left: 130px;
+}
+
+
+.development-container h1{
+    font-size: 50px;
+    color:#D5D8DC ;
+}
+
+
+.development-container p{
+    
+    text-align: justify;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+
+
+.development-container a{
+    padding: 15px 25px;
+    background-image: linear-gradient(red,#E9350E);
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.community{
+    display: flex;
+    padding: 5%;
+}
+
+
+.community-container{
+    width: 40%;
+    padding: 5%;
+}
+
+
+
+.community-description h1{
+    color: #D5D8DC ;
+    font-size: 50px;
+}
+
+
+.community-description p{
+    text-align: justify;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+
+.community-description a{
+    padding: 15px 25px;
+    background-image: linear-gradient(red,#E9350E);
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+
+#global-community .project{
+    width: 30%;
+    z-index: 2;
+    margin-left: 100px;
+    margin-top: -100px;
+    position: absolute;
+}
+
+
+#global-community .shape1{
+    width: 40%;
+    margin-top: 310px;
+    margin-left: 520px;
+    z-index: 1;
+    
+}
+
+
+.about-me{
+    display: flex;
+    padding: 2% 5%;
+    background: #1F1F1F;
+}
+
+
+
+#cv{
+    width: 30%;
+    padding: 2% 10%;
+}
+
+
+#cv h1{
+    font-size: 40px;
+    color: #D5D8DC;
+}
+
+
+#cv h2{
+    text-align: justify;
+    color: #D5D8DC;
+}
+
+
+#cv p{
+    font-weight: bold;
+}
+
+
+.experience{
+    display: flex;
+}
+
+
+.experience h1{
+    margin-top: 5px;
+    margin-right: 3px;
+}
+
+
+.experience h4{
+    font-size: 13px;
+}
+
+
+
+.about-me-information h2{
+    padding-top: 90px;
+}
+
+
+.about-me-information a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: #E9350E;
+}
+
+
+footer{
+    text-align: center;
+}
+
+
+footer h1{
+    font-family: 'Courgette', cursive;
+    font-size: 50px;
+}
